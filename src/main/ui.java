@@ -447,7 +447,7 @@ jTextArea1.setText(null);// TODO add your handling code here:
     private void jLabel15MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel15MouseClicked
 try {
         Class.forName("com.mysql.jdbc.Driver");
-        Connection cn=(Connection) DriverManager.getConnection("jdbc:mysql://localhost/RestMgmt?user=root&password=Mooreland_69");
+        Connection cn=(Connection) DriverManager.getConnection("jdbc:mysql://localhost/RestMgmt?user=root&password=password");
         String id1=jTextField1.getText();
         String pass1=jPasswordField1.getText();
         
@@ -491,7 +491,7 @@ try {
     private void jLabel17MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel17MouseClicked
     try {
         Class.forName("com.mysql.jdbc.Driver");
-        Connection cn=(Connection) DriverManager.getConnection("jdbc:mysql://localhost/RestMgmt?user=root&password=Mooreland_69");
+        Connection cn=(Connection) DriverManager.getConnection("jdbc:mysql://localhost/RestMgmt?user=root&password=password");
         String id2=jTextField2.getText();
         String name2=jTextField3.getText();
         String pass2=jPasswordField2.getText();
@@ -535,7 +535,7 @@ cl.show(getContentPane(), "Successful");        // TODO add your handling code h
     private void jLabel19MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel19MouseClicked
     try {
         Class.forName("com.mysql.jdbc.Driver");
-        Connection cn=(Connection) DriverManager.getConnection("jdbc:mysql://localhost/RestMgmt?user=root&password=Mooreland_69");
+        Connection cn=(Connection) DriverManager.getConnection("jdbc:mysql://localhost/RestMgmt?user=root&password=password");
         
         
         
@@ -565,7 +565,7 @@ cl.show(getContentPane(), "Successful");        // TODO add your handling code h
     private void jLabel20MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel20MouseClicked
 try {
         Class.forName("com.mysql.jdbc.Driver");
-        Connection cn=(Connection) DriverManager.getConnection("jdbc:mysql://localhost/RestMgmt?user=root&password=Mooreland_69");
+        Connection cn=(Connection) DriverManager.getConnection("jdbc:mysql://localhost/RestMgmt?user=root&password=password");
         
         
         
@@ -595,7 +595,7 @@ try {
     private void jLabel21MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel21MouseClicked
 try {
         Class.forName("com.mysql.jdbc.Driver");
-        Connection cn=(Connection) DriverManager.getConnection("jdbc:mysql://localhost/RestMgmt?user=root&password=Mooreland_69");
+        Connection cn=(Connection) DriverManager.getConnection("jdbc:mysql://localhost/RestMgmt?user=root&password=password");
         
         
         
@@ -625,7 +625,7 @@ try {
     private void jLabel22MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel22MouseClicked
 try {
         Class.forName("com.mysql.jdbc.Driver");
-        Connection cn=(Connection) DriverManager.getConnection("jdbc:mysql://localhost/RestMgmt?user=root&password=Mooreland_69");
+        Connection cn=(Connection) DriverManager.getConnection("jdbc:mysql://localhost/RestMgmt?user=root&password=password");
         
         
         
@@ -662,7 +662,7 @@ jTextArea2.setText(null);// TODO add your handling code here:
 
 try {
         Class.forName("com.mysql.jdbc.Driver");
-        Connection cn=(Connection) DriverManager.getConnection("jdbc:mysql://localhost/RestMgmt?user=root&password=Mooreland_69");
+        Connection cn=(Connection) DriverManager.getConnection("jdbc:mysql://localhost/RestMgmt?user=root&password=password");
         
         String str2="select * from past where email='"+email+"'";
         PreparedStatement ps2=(PreparedStatement) cn.prepareStatement(str2);
